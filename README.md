@@ -2,7 +2,7 @@
 
 ![GitHub license](https://img.shields.io/badge/Licenses-MIT-blue.svg)
 
-_This application was developed Context and the goal was to transform that by using Redux. So this online store ._ 
+_This repository contains  the MERN e-commerce Servicethat will let you show and sell  your products. This system have a secure payment system that is Stripe so you dont have to worry on store sensiteve data from the client and also the client will now that this will be a secure payment process ._ 
 
 ## Table of Contents
 
