@@ -22,8 +22,12 @@ npm install
 
 ## Usage
 
-`To Run the system locally you need to use the follow command`
+`To Run the system locally you need to use the follow command on the main directory and execute the follow commands:`
 
+```bash
+npm run seed
+```
+`This will insert data into you Collection and can see products and some users informartion to login. After that you need to run the follow to init the system:`
 ```bash
 npm run develop
 ```
@@ -33,12 +37,12 @@ npm run develop
 
 ## Test
 
-`This system count with one test case in order to check the reducers. In order you need to do the follor `
+`This system count with one test case in order to check that the reducers are working properly.So you can execute that by doing the follow commands:`
 
 ```bash
 cd client
 ```
-And then :
+`And then :`
 
 ```bash
 npm run test
