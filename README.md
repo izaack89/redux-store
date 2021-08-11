@@ -2,15 +2,15 @@
 
 ![GitHub license](https://img.shields.io/badge/Licenses-MIT-blue.svg)
 
-This Full-Stack system allows to the users to seach a book but the extra feature is that if you loggin you can save the book on your profile 
+_This application was developed for students and teachers that need an app for their school and need to control their assignments, time and take overall control of their tasks._ 
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
-- [Test](#test)
-- [License](#license)
-- [Questions](#questions)
+- [`Installation`](#installation)
+- [`Usage`](#usage)
+- [`Test`](#test)
+- [`License`](#license)
+- [`Questions`](#questions)
 
 ## Installation
 
