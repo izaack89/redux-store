@@ -2,7 +2,7 @@
 
 ![GitHub license](https://img.shields.io/badge/Licenses-MIT-blue.svg)
 
-_This application was developed for students and teachers that need an app for their school and need to control their assignments, time and take overall control of their tasks._ 
+_This application was developed Context and the goal was to transform that by using Redux. So this online store ._ 
 
 ## Table of Contents
 
@@ -62,6 +62,7 @@ npm run test
 - [Redux Part 1](https://redux.js.org/tutorials/fundamentals/part-1-overview) - Redux Tutorial Part 1
 - [Redux part 2](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow) - Redux Tutorial Part 2
 - [Dispatch Error](https://stackoverflow.com/questions/35443167/dispatch-is-not-a-function-when-argument-to-maptodispatchtoprops-in-redux) - Dispatch error 
+- [Stripe](https://stripe.com/docs/stripe-vscode) - Stripe Documentation
 
 
 ## Questions
