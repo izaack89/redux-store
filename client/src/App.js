@@ -8,7 +8,6 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
-import { Provider } from 'react-redux';
 import store from './utils/store';
 
 import Home from './pages/Home';
@@ -19,6 +18,9 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
+
+// Importing our theme provider which will make our global state available to child components
+import CarProvider from './utils/CarContext';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -44,7 +46,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <Provider store={store}>
+          <CarProvider store={store}>
             <Nav />
             <Switch>
               <Route exact path="/" component={Home} />
@@ -55,7 +57,7 @@ function App() {
               <Route exact path="/products/:id" component={Detail} />
               <Route component={NoMatch} />
             </Switch>
-          </Provider>
+          </CarProvider>
         </div>
       </Router>
     </ApolloProvider>
