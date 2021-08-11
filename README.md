@@ -1,7 +1,3 @@
-# redux-store
-
-<!-- // https://young-garden-30489.herokuapp.com/ -->
-
 # Redux Store
 
 ![GitHub license](https://img.shields.io/badge/Licenses-MIT-blue.svg)
@@ -12,6 +8,7 @@ This Full-Stack system allows to the users to seach a book but the extra feature
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Test](#test)
 - [License](#license)
 - [Questions](#questions)
 
@@ -33,9 +30,24 @@ npm run develop
 
 ![System View](./readmeFiles/mern.gif)
 
+
+## Test
+
+This system count with one test case in order to check the reducers. In order you need to do the follor 
+
+```bash
+cd client
+```
+And then :
+
+```bash
+npm run test
+```
+![Test View](./readmeFiles/mern-test.gif)
+
 ## [Redux Store GitHub Code](https://github.com/izaack89/book-search-engine)
 
-## [Redux Store Live](https://peaceful-tundra-40160.herokuapp.com/)
+## [Redux Store Live](https://young-garden-30489.herokuapp.com/ )
 
 ## Redux Store References
 - [Deploy Heroku and Mongo](https://coding-boot-camp.github.io/full-stack/mongodb/deploy-with-heroku-and-mongodb-atlas)- Heroku and Mongo Deploy
