@@ -74,7 +74,5 @@ If you have any questions about the repository, open an issue or contact me dire
 ## Author
 
 - **German Ramirez** - [GitHub](https://github.com/izaack89/)
-\
-&nbsp;\
-&nbsp;
+
 ![Badge for GitHub](https://img.shields.io/github/languages/top/izaack89/redux-store?style=plastic&logo=github)
