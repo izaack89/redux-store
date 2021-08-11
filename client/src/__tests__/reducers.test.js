@@ -1,4 +1,4 @@
-import { reducer } from '../utils/reducers';
+import { reducers } from '../utils/reducers';
 import {
   UPDATE_PRODUCTS,
   ADD_TO_CART,
@@ -31,7 +31,7 @@ const initialState = {
 };
 
 test('UPDATE_PRODUCTS', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: UPDATE_PRODUCTS,
     products: [{}, {}]
   });
@@ -41,7 +41,7 @@ test('UPDATE_PRODUCTS', () => {
 });
 
 test('ADD_TO_CART', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: ADD_TO_CART,
     product: { purchaseQuantity: 1 }
   });
@@ -51,7 +51,7 @@ test('ADD_TO_CART', () => {
 });
 
 test('UPDATE_CART_QUANTITY', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: UPDATE_CART_QUANTITY,
     _id: '1',
     purchaseQuantity: 3
@@ -64,7 +64,7 @@ test('UPDATE_CART_QUANTITY', () => {
 });
 
 test('REMOVE_FROM_CART', () => {
-  let newState1 = reducer(initialState, {
+  let newState1 = reducers(initialState, {
     type: REMOVE_FROM_CART,
     _id: '1'
   });
@@ -73,7 +73,7 @@ test('REMOVE_FROM_CART', () => {
   expect(newState1.cart.length).toBe(1);
   expect(newState1.cart[0]._id).toBe('2');
 
-  let newState2 = reducer(newState1, {
+  let newState2 = reducers(newState1, {
     type: REMOVE_FROM_CART,
     _id: '2'
   });
@@ -85,7 +85,7 @@ test('REMOVE_FROM_CART', () => {
 });
 
 test('ADD_MULTIPLE_TO_CART', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: ADD_MULTIPLE_TO_CART,
     products: [{}, {}]
   });
@@ -95,7 +95,7 @@ test('ADD_MULTIPLE_TO_CART', () => {
 });
 
 test('UPDATE_CATEGORIES', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: UPDATE_CATEGORIES,
     categories: [{}, {}]
   });
@@ -105,7 +105,7 @@ test('UPDATE_CATEGORIES', () => {
 });
 
 test('UPDATE_CURRENT_CATEGORY', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: UPDATE_CURRENT_CATEGORY,
     currentCategory: '2'
   });
@@ -115,7 +115,7 @@ test('UPDATE_CURRENT_CATEGORY', () => {
 });
 
 test('CLEAR_CART', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: CLEAR_CART
   });
 
@@ -125,14 +125,14 @@ test('CLEAR_CART', () => {
 });
 
 test('TOGGLE_CART', () => {
-  let newState = reducer(initialState, {
+  let newState = reducers(initialState, {
     type: TOGGLE_CART
   });
 
   expect(newState.cartOpen).toBe(true);
   expect(initialState.cartOpen).toBe(false);
   
-  let newState2 = reducer(newState, {
+  let newState2 = reducers(newState, {
     type: TOGGLE_CART
   });
 
