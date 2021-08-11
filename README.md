@@ -43,8 +43,10 @@ npm run develop
 - [Heroku Issues](https://help.heroku.com/6235QYN4/why-is-my-node-js-build-failing-because-of-no-matching-node-versions) - Heroku Topic
 - [GraphQL](https://graphql.org/graphql-js/) - GraphQl Information
 - [GraphQl Input](https://graphql.org/graphql-js/mutations-and-input-types/) - GraphQl Input
-- [Redux Part 1] (https://redux.js.org/tutorials/fundamentals/part-1-overview) - Redux Tutorial Part 1
+- [Redux Part 1](https://redux.js.org/tutorials/fundamentals/part-1-overview) - Redux Tutorial Part 1
 - [Redux part 2](https://redux.js.org/tutorials/fundamentals/part-2-concepts-data-flow) - Redux Tutorial Part 2
+- [Dispatch Error](https://stackoverflow.com/questions/35443167/dispatch-is-not-a-function-when-argument-to-maptodispatchtoprops-in-redux) - Dispatch error 
+
 
 ## Questions
 
