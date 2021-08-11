@@ -14,7 +14,7 @@ _This application was developed for students and teachers that need an app for t
 
 ## Installation
 
-Use the package manager [npm](https://docs.npmjs.com/cli/v7/commands/npm-install) to install all the dependencies that are on the package.json
+`Use the package manager [npm](https://docs.npmjs.com/cli/v7/commands/npm-install) to install all the dependencies that are on the files package.json inside the app`
 
 ```bash
 npm install
@@ -22,7 +22,7 @@ npm install
 
 ## Usage
 
-To Run the system locally you need to use the follow command
+`To Run the system locally you need to use the follow command`
 
 ```bash
 npm run develop
@@ -33,7 +33,7 @@ npm run develop
 
 ## Test
 
-This system count with one test case in order to check the reducers. In order you need to do the follor 
+`This system count with one test case in order to check the reducers. In order you need to do the follor `
 
 ```bash
 cd client
